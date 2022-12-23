@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    image: mauriciohc/snells-law:latest
+    container_name: Snells-Law_Calculator
+    network_mode: "host"
+    environment:
+      - "DISPLAY"
+    volumes:
+      - ./plots:/home/Snells-Law_Calculator/plots:rw
+      
