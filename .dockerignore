@@ -2,8 +2,10 @@ Dockerfile
 docker-compose.yml
 .dockerignore
 ./utils/__pycache__
+./images/screenshot.png
 .git
 .gitattributes
 .gitignore
 README.md
+LICENSE.md
 run.sh
