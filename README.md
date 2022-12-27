@@ -138,6 +138,11 @@ So, to get a local copy up and running the project follow these simple steps.
     bash run.sh
     ```
 
+**Note:** When using the **Docker Method**, the container creates `plots/` directory, if you want to remove it run the command below:
+```bash
+sudo rm -r plots/
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -163,7 +168,7 @@ Distributed under the MIT License. See [`LICENSE.md`][License-url] for more info
 [license-shield]: https://img.shields.io/github/license/mauriciohc02/Snells-Law_Calculator.svg?style=for-the-badge
 [license-url]: https://github.com/mauriciohc02/Snells-Law_Calculator/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/mauricio-hernandez-cepeda
 [product-screenshot]: images/screenshot.png
 
 [Python]: https://img.shields.io/badge/PYTHON-V3.10-blue?style=for-the-badge&logo=python
