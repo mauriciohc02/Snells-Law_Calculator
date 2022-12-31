@@ -110,11 +110,9 @@ So, to get a local copy up and running the project follow these simple steps.
     cd Snells-Law_Calculator
     ```
 
-3.  If you chose the **Traditional Method** run the first three commands in order to install the modules and packages, otherwise for the **Docker Method** just pull the docker image as shown in the last command.
+3.  If you chose the **Traditional Method** run the first command to install the modules or packages, otherwise for the **Docker Method** just pull the docker image as shown in the last command.
     ```bash
-    sudo apt update
-    sudo apt install python3-pyqt5 -y
-    pip3 install -r requirements.txt
+    pip install -r requirements.txt
     ```
     or
     ```bash
@@ -150,7 +148,7 @@ sudo rm -r plots/
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [`LICENSE.md`][License-url] for more information.
+Distributed under the MIT License. See [`LICENSE.md`][license-url] for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +164,7 @@ Distributed under the MIT License. See [`LICENSE.md`][License-url] for more info
 [issues-shield]: https://img.shields.io/github/issues/mauriciohc02/Snells-Law_Calculator.svg?style=for-the-badge
 [issues-url]: https://github.com/mauriciohc02/Snells-Law_Calculator/issues
 [license-shield]: https://img.shields.io/github/license/mauriciohc02/Snells-Law_Calculator.svg?style=for-the-badge
-[license-url]: https://github.com/mauriciohc02/Snells-Law_Calculator/blob/master/LICENSE.md
+[license-url]: https://github.com/mauriciohc02/Snells-Law_Calculator/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/mauricio-hernandez-cepeda
 [product-screenshot]: images/screenshot.png
@@ -185,4 +183,3 @@ Distributed under the MIT License. See [`LICENSE.md`][License-url] for more info
 [Docker-url]: https://hub.docker.com/
 [Compose-url]: https://github.com/mauriciohc02/Snells-Law_Calculator/blob/main/docker-compose.yml
 [Script-url]: https://github.com/mauriciohc02/Snells-Law_Calculator/blob/main/run.sh
-[License-url]: https://github.com/mauriciohc02/Snells-Law_Calculator/blob/main/LICENSE.md
