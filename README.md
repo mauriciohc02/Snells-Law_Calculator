@@ -59,11 +59,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<div align="center">
-    <a href="https://github.com/mauriciohc02/Snells-Law_Calculator/blob/main/images/screenshot.png">
-        <img src="https://raw.githubusercontent.com/mauriciohc02/Snells-Law_Calculator/main/images/screenshot.png" alt="Logo" width="500" height="537">
-    </a>
-</div>
+[![Snells-Law_Calculator Screen Shot][product-screenshot]](https://github.com/mauriciohc02/Snells-Law_Calculator/blob/main/images/screenshot.png)
 
 When light travels from one medium to another, it bends or refracts. The Snells-Law_Calculator lets you explore this topic in detail and understand the principles of refraction.
 
@@ -171,6 +167,7 @@ Distributed under the MIT License. See [`LICENSE.md`][license-url] for more info
 [license-url]: https://github.com/mauriciohc02/Snells-Law_Calculator/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/mauricio-hernandez-cepeda
+[product-screenshot]: images/screenshot.png
 
 [Python]: https://img.shields.io/badge/PYTHON-V3.10-blue?style=for-the-badge&logo=python
 [Python-url]: https://www.python.org/
